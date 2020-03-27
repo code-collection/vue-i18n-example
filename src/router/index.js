@@ -12,12 +12,12 @@ function loadView(comp) {
 
 const routes = [
   {
-    path: '/',
+    path: '',
     name: 'Home',
     component: loadView('Home')
   },
   {
-    path: '/about',
+    path: 'about',
     name: 'About',
     component: loadView('About')
   },
